@@ -14,7 +14,7 @@ This is a repository for analysis of the growth of PTCDI-C8 thin layer recorded 
 
 ### Model:
 
-`DensNet_PTCDI` - model
+`DensNet_PTCDI.h5` - model
 
 `normalization_PTCDI.npy` - labels normalization
 
