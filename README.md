@@ -5,9 +5,12 @@ This is a repository for analysis of the growth of PTCDI-C8 thin layer recorded 
 ### Data folders:
 
 `data_evolution` - predicted labels from all experiments
+
 `data_evolution_error` - predicted labels from all experiments with extracted averages and error bars
+
 `inter` - qXRR curves for the growth at 0.2 nm/s
-'interS' - qXRR curves for the growth at 0.1 nm/s   
+
+`interS` - qXRR curves for the growth at 0.1 nm/s   
 
 ### Model:
 
