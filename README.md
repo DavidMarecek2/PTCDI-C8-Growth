@@ -1,15 +1,15 @@
-###Introduction
+### Introduction
 
 This is a repository for analysis of the growth of PTCDI-C8 thin layer recorded with quick X-ray reflectivity (XRR) measurement. We used Neural Network as the main analysis tool together with refnx fitting algorithm. This approach is chosen for its convenience and speed compared to advanced genetic algorithms, particularly when dealing with a large dataset of 10,000 curves generated during the growth of the thin film.
 
-###Data folders:
+### Data folders:
 
 'data_evolution' - predicted labels from all experiments
 'data_evolution_error' - predicted labels from all experiments with extracted averages and error bars
 'inter' - qXRR curves for the growth at 0.2 nm/s
 'interS' - qXRR curves for the growth at 0.1 nm/s   
 
-###Model:
+### Model:
 
 'DensNet_PTCDI' - model
 'normalization_PTCDI.npy' - labels normalization
@@ -18,17 +18,17 @@ This is a repository for analysis of the growth of PTCDI-C8 thin layer recorded 
 'Data_augmentation.ipynb' - data augmentation script ('labels_N.npy' and 'curves_N.npy')
 'Training.ipynb' - This notebook demonstrates the training of a neural network using a generated dataset. A minimal training dataset is included to illustrate the fundamental principles of the training process.
 
-###Python scripts:
+### Python scripts:
 
 'BP_fit.py' - refnx fit and image generator
 'BP_fit_multi.py' - refnx fits and images generator
 
-###Text files:
+### Text files:
 
 'bragg_intensities.txt' - extracted intensities of the Bragg peak during the growth
 'Pilatus_Interpolated.txt' - measured XRR curve with a classical XRR setup after the growth at 0.1 nm/s
 
-###Notebooks:
+### Notebooks:
 
 'Prediction_fit_single.ipynb' - NN and NN-informed fit of an XRR curve (Figure 1 in the main text)
 'Prediction_fit_multiple.ipynb' - NN and NN-informed fit of an XRR curve (Figure 2 in the main text)
